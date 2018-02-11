@@ -1,5 +1,5 @@
 # slidefinish
-####### 手势滑动关闭activity(不适合fragment)
+###### 手势滑动关闭activity(不适合fragment)
 
 > 先上图
 
@@ -26,7 +26,7 @@ compile 'com.github.sunrise:slidefinish:1.0.0'
 @Override
 protected void onCreate(@Nullable Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-   	 ...
+   	...
     SlideFinishManager.getInstance().bind(this);
 }
 
