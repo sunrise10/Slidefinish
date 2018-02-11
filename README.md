@@ -1,5 +1,5 @@
 # slidefinish
-###### 手势滑动关闭activity(不适合fragment)
+手势滑动关闭activity(不适合fragment)
 
 > 先上图
 
