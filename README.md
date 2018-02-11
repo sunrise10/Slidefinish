@@ -1,10 +1,18 @@
-# Slidefinish
+# lidefinish
 手势滑动关闭activity(不适合fragment)
 
 > 先上图
 
+微信效果
+
 ![](https://github.com/sunrise10/slidefinish/blob/a57d0ffda94844ad384f65a805fdd93b4a2f7949/app/src/main/screenshot/wechat.gif)
+
+酷狗或今日头条效果
+
 ![](https://github.com/sunrise10/slidefinish/blob/a57d0ffda94844ad384f65a805fdd93b4a2f7949/app/src/main/screenshot/scale.gif)
+
+旋转效果
+
 ![](https://github.com/sunrise10/slidefinish/blob/a57d0ffda94844ad384f65a805fdd93b4a2f7949/app/src/main/screenshot/ratate.gif)
 
 #### 用法
