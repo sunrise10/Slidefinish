@@ -20,13 +20,13 @@
 ![](https://github.com/sunrise10/Slidefinish/blob/4d42b1c8eba644e488e0a315ac7701348b3371cf/app/src/main/screenshot/shadow.gif)
 
 #### 用法
-1. 在你app的build.gradle中添加依赖
+1. 在你app的`build.gradle`中添加依赖
 
 ```
 compile 'com.github.sunrise:slidefinish:1.0.0'
 ```
  
-2. 在styles.xml在你的theme加上，也就是设置透明背景
+2. 在styles.xml的theme上加上，也就是设置透明背景
 
 ```
 <item name="android:windowIsTranslucent">true</item>
@@ -49,7 +49,7 @@ protected void onDestroy() {
     SlideFinishManager.getInstance().unbind();
 }
 ```
-到此就就可看到上图效果,如果不想某个activity滑动，可在当前activity中的onCreate()中加上
+到此就就可看到上图效果,如果不想某个`activity`滑动，可在当前`activity`中的`onCreate()`中加上
 
 ```
 SlideFinishManager.getInstance().setSlideEnable(false);
