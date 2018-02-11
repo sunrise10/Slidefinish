@@ -421,14 +421,14 @@ public class SlideFinishLayout extends FrameLayout {
             scrollTo(mScroller.getCurrX(), 0);
             int currX = mScroller.getCurrX();
             switch (shadowOrientation) {
-                case 1:
+                case 2:
                     if (currX < 0) {
                         if (currX >= -mScreenWidth / 2) {
                             mAlpha = (float) currX / mUpScrollX * mUpAlpha;
                         }
                     }
                     break;
-                case 2:
+                case 1:
                     if (currX < 0) {
                         if (currX >= -mScreenWidth / 2) {
                             //back

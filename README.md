@@ -15,6 +15,10 @@
 
 ![](https://github.com/sunrise10/slidefinish/blob/a57d0ffda94844ad384f65a805fdd93b4a2f7949/app/src/main/screenshot/ratate.gif)
 
+阴影
+
+![](https://github.com/sunrise10/slidefinish/blob/a57d0ffda94844ad384f65a805fdd93b4a2f7949/app/src/main/screenshot/ratate.gif)
+
 #### 用法
 1. 在你app的build.gradle中添加依赖
 
@@ -51,7 +55,7 @@ protected void onDestroy() {
 SlideFinishManager.getInstance().setSlideEnable(false);
 ```
 你还可以设置
-你还可以设置滑动的效果(0:无效果 1:微信效果 2:酷狗或今日头条效果 3:酷狗旋转效果)，设置activity的左边缘是否有阴影，设置activity的左边缘阴影大小等，如：
+你还可以设置滑动的效果(0:无效果 1:微信效果 2:酷狗或今日头条效果 3:酷狗旋转效果)，设置activity的左边缘是否有阴影，设置阴影的方向等，如：
 
 ```
 SlideFinishManager.getInstance().setEdgeShadow(false).setSlideEffect(SlideFinishManager.ROTATE).setShadowOrientation(SlideFinishManager.LEFT);
