@@ -17,7 +17,7 @@
 
 阴影
 
-![](https://github.com/sunrise10/slidefinish/blob/a57d0ffda94844ad384f65a805fdd93b4a2f7949/app/src/main/screenshot/ratate.gif)
+![](https://github.com/sunrise10/Slidefinish/blob/4d42b1c8eba644e488e0a315ac7701348b3371cf/app/src/main/screenshot/shadow.gif)
 
 #### 用法
 1. 在你app的build.gradle中添加依赖
